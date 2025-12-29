@@ -1,0 +1,28 @@
+body {
+ background: linear-gradient(to right,#56ab2f,#a8e063);
+ font-family: Arial;
+}
+
+.box {
+ background: white;
+
+ margin: 100px auto;
+ padding: 20px;
+width: 380px;
+ border-radius: 12px;
+ text-align: center;
+}
+
+input, select, button {
+ width: 90%;
+ padding: 10px;
+ margin: 10px;
+}   
+
+
+
+
+
+
+
+

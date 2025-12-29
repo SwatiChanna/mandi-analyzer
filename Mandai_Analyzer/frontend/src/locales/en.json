@@ -1,0 +1,54 @@
+{
+  "app": {
+    "title": "Mandi Analyzer",
+    "tagline": "Predict local crop surplus before prices crash",
+    "subtitle": "Get a clear market signal for your crop and location for the next 7 days.",
+    "checkMarket": "Check Market Situation",
+    "checkYourMarket": "Check Your Market",
+    "selectCrop": "Select Crop",
+    "selectLocation": "Select Location",
+    "tip": "Tip: Predictions cover next 7 days within 50 km radius of the selected mandi.",
+    "welcome": "Welcome to Mandi Analyzer",
+    "analyzing": "Analyzing market data..."
+  },
+  "dashboard": {
+    "analysisFor": "Analysis for {{crop}} in {{location}}",
+    "lastUpdated": "Last updated: {{time}}"
+  },
+  "marketAlert": {
+    "title": "Market Alert",
+    "balanced": "Market Balanced",
+    "highSupply": "High supply expected",
+    "stable": "Market stable",
+    "lowSupply": "Low supply expected",
+    "withinRadius": "Coverage: Within 50 km radius of {{location}}"
+  },
+  "priceRange": {
+    "title": "Price Range (Next 7 Days)",
+    "minimum": "Minimum",
+    "maximum": "Maximum"
+  },
+  "advice": {
+    "title": "AI Advice for Farmers",
+    "powered": "Powered by Google Gemini AI - This advice is generated based on current market conditions and historical trends."
+  },
+  "login": {
+    "title": "Login to Mandi Analyzer",
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "required": "Username is required.",
+    "usernamePlaceholder": "Enter a username",
+    "passwordPlaceholder": "Enter a password"
+  },
+  "auth": {
+    "logout": "Logout"
+  },
+  "chart": {
+    "title": "Price Trend Analysis",
+    "description": "Historical prices (past 7 days) vs predicted prices (next 7 days) for {{crop}}",
+    "avgPast": "Avg Past Price",
+    "avgPredicted": "Avg Predicted Price",
+    "trendSignal": "Trend Signal"
+  }
+}

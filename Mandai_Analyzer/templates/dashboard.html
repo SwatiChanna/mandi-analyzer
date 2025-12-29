@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="box">
+  <img src="/static/logo.png" class="logo">
+
+  
+<h2>Crop Prediction</h2>
+
+<form action="/predict" method="post">
+
+<select name="crop">
+<option>Wheat</option>
+<option>Rice</option>
+<option>Onion</option>
+<option>Tomato</option>
+</select>
+
+<select name="place">
+<option>Solapur</option>
+<option>Pune</option>
+<option>Nashik</option>
+<option>Nagpur</option>
+</select>
+
+<input type="date" name="date" required>
+
+<button>Predict</button>
+</form>
+</div>
+</body>
+</html>   
+
+
+
+
